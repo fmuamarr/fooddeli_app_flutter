@@ -1,16 +1,14 @@
-# dicoding_food_deli
+# Food Deli Restaurant App
 
-A new Flutter project.
+This repository contains my submission for Dicoding's "Belajar Fundamental Aplikasi Flutter" class. 
 
-## Getting Started
+## Overview
+- **UI Implementation**: Utilizes both Stateless and Stateful Widgets to build the user interface.
+- **Restaurant Listing**: Fetches and displays a list of restaurants, including brief information and images, sourced from an API.
+- **Restaurant Details**: Provides detailed information about each restaurant when selected from the list.
+- **Search Functionality**: Includes a search feature to find restaurants by name or menu items.
+- **Favorites Restaurant**: Allows users to add and remove restaurants from their favorites list using SQLite for local storage.
+- **Scheduling and Notifications**: Implements a daily reminder feature to notify users of a random restaurant at a specific time.
+- **Testing**: Includes testing scenarios to ensure the application functions correctly, including verifying JSON parsing.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
