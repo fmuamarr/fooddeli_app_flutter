@@ -1,8 +1,9 @@
 # Food Deli Restaurant App
 
-This repository contains my submission for Dicoding's "Belajar Fundamental Aplikasi Flutter" class. 
+This repository contains my submission for Dicoding's "Belajar Fundamental Aplikasi Flutter" class.
 
 ## Overview
+
 - **UI Implementation**: Utilizes both Stateless and Stateful Widgets to build the user interface.
 - **Restaurant Listing**: Fetches and displays a list of restaurants, including brief information and images, sourced from an API.
 - **Restaurant Details**: Provides detailed information about each restaurant when selected from the list.

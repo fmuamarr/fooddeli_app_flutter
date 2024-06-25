@@ -258,8 +258,11 @@ class RestaurantDetailScreen extends StatelessWidget {
   Widget _buildFoodItem(BuildContext context, RestaurantDetail restaurant) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 10.0),
-      child: _buildItemMenu(context, restaurant,
-          'https://source.unsplash.com/featured/?food', restaurant.menus.foods),
+      child: _buildItemMenu(
+          context,
+          restaurant,
+          'https://via.placeholder.com/150', // New placeholder image URL for food
+          restaurant.menus.foods),
     );
   }
 
@@ -269,7 +272,7 @@ class RestaurantDetailScreen extends StatelessWidget {
       child: _buildItemMenu(
           context,
           restaurant,
-          'https://source.unsplash.com/featured/?drink',
+          'https://via.placeholder.com/150', // New placeholder image URL for drinks
           restaurant.menus.drinks),
     );
   }
